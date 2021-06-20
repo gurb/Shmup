@@ -1,4 +1,5 @@
 using SFML.Graphics;
+using SFML.System;
 using SFML.Window;
 using System.Collections.Generic;
 
@@ -23,6 +24,7 @@ namespace shmup {
             this.window.SetFramerateLimit(60);
 
             TextureManager.LoadTexture();
+            TextManager.loadFont("FreeMono");
             
             background = new Sprite();
             background.Texture = TextureManager.BackgroundTexture;
@@ -51,8 +53,14 @@ namespace shmup {
             this.window.DispatchEvents();
         }
 
+        private void updateScore()
+        {
+            TextManager.typeText("Score: ", player.Score, 25, Color.White, new Vector2f(10f, 10f));
+        }
+
         private void update() 
         {
+            this.updateScore();
             this.player.update();
             this.enemies.update(this.player);
             AnimationManager.update();
@@ -66,6 +74,7 @@ namespace shmup {
             this.player.draw(this.window);
             this.enemies.draw(this.window);
             AnimationManager.draw(this.window);
+            TextManager.draw(this.window);
 
             this.window.Display();
         }

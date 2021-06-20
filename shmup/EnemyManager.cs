@@ -41,6 +41,7 @@ namespace shmup
             {
                 if (enemy.EnemySprite.GetGlobalBounds().Intersects(player.bullets[i].RectangleBullet.GetGlobalBounds())) 
                 {
+                    player.Score += 10;
                     player.bullets.Remove(player.bullets[i]);
                     return true;
                 }

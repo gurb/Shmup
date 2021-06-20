@@ -10,9 +10,12 @@ namespace shmup {
         private int delay = 0;
         private Sprite sprite;
         public const float PLAYER_SPEED = 4f;
+        private int score = 0;
+
         Vector2f position = new Vector2f(310, 460);
         public List<Bullet> bullets = new List<Bullet>();
         public Sprite PlayerSprite { get { return sprite; } }
+        public int Score { get { return score; } set { score = value; } }
 
         public Player () 
         {
