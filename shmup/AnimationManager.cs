@@ -8,7 +8,6 @@ namespace shmup
 {
     class AnimationManager
     {
-
         private static List<Animation> animations = new List<Animation>();
 
         public static List<Animation> Animations { get { return animations; } }
