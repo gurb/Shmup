@@ -1,4 +1,4 @@
-# Tutorials Making Shoot 'Em Up Game using SFML.Net
+# Tutorials of Making Shoot 'Em Up Game using SFML.Net
 
 This repository contains the source code of the game. The game has made for tutorials. You can reach all the tutorials from this [link](https://www.letsdevelopgames.com/2021/06/create-shoot-em-up-game-using-c-and-sfml.html).
 
