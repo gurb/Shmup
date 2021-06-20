@@ -13,3 +13,5 @@ Tutorials:
 - [Spawning Enemies](https://www.letsdevelopgames.com/2021/06/spawning-enemies-in-sfml-c.html)
 - [Collision System](https://www.letsdevelopgames.com/2021/06/collision-system-in-sfml-c.html)
 - [Explosion Animation](https://www.letsdevelopgames.com/2021/06/explosion-animation-in-sfml-c.html)
+- [Displaying The Score](https://www.letsdevelopgames.com/2021/06/display-score-as-text-in-sfml-c.html)
+
