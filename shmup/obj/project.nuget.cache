@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "7/5jmOvLNSPwaZZmj431h8pSXsKz5bBb5+ZHAr17of4GfSyLevZ8dn4gmAsgnvXtc710livXrlVNzyP9+pef3g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gurbu\\games\\Shmup\\shmup\\shmup.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gurbu\\.nuget\\packages\\csfml\\2.5.0\\csfml.2.5.0.nupkg.sha512",
+    "C:\\Users\\gurbu\\.nuget\\packages\\sfml.audio\\2.5.0\\sfml.audio.2.5.0.nupkg.sha512",
+    "C:\\Users\\gurbu\\.nuget\\packages\\sfml.graphics\\2.5.0\\sfml.graphics.2.5.0.nupkg.sha512",
+    "C:\\Users\\gurbu\\.nuget\\packages\\sfml.net\\2.5.0\\sfml.net.2.5.0.nupkg.sha512",
+    "C:\\Users\\gurbu\\.nuget\\packages\\sfml.system\\2.5.0\\sfml.system.2.5.0.nupkg.sha512",
+    "C:\\Users\\gurbu\\.nuget\\packages\\sfml.window\\2.5.0\\sfml.window.2.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
